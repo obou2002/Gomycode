@@ -2,14 +2,15 @@
 <html>
 <!--Premier test de site fait avec Go My Code-->
 <head>
-    <title>Courses</title>
+    <title>Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,shrink-to-fit=no">
-    <link rel="stylesheet" href="res/bootstrap-4.3.1-dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="res/bootstrap-4.3.1-dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="res/bootstrap-4.3.1-dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
@@ -36,9 +37,30 @@
         <h1 class="textedefond">Contact</h1>
     </div>
     
+    <div class="champs">
+        <form id="coordonnes">
+            <label class="label">Name</label>
+            <input type="text" class="format"placeholder="Your Name"> 
     
+            <label class="label">Track</label>
+            <select name="choix" class="format"size="l">
+                <option>Web</option>
+                <option>Game</option>
+                <option>AI</option>
+            </select>
+            <label class="label">Email Adress</label>
+            <input type="email" class="format"placeholder="name@example.com">
+            <label class="label">Phone Number</label>
+            <input type="number" class="format"placeholder="Your Phone Number">
+        </form>  
+    </div>
+    <div class="boutton2">
+        <button type="submit">Submit</button>
+    </div>
+    
+        
     
 </body>
-</<html>
+</html>
     
 

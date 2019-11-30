@@ -1,0 +1,206 @@
+body
+{
+    background-image: 
+    linear-gradient(217deg, rgba(255,0,0,.8),rgba(255,0,0,0) 70.71%), 
+    linear-gradient(127deg, black, black 70.71%), 
+    linear-gradient(336deg, rgba(0,0,255,.8),rgba(0,0,255,0) 70.71%);
+}
+body 
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body 
+{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h1 {
+    color: white !important;
+    margin-top: 5%;
+    text-align: center;
+    }
+header {
+    margin-right: 0;
+    margin-left: 0;
+}
+#ulNav{
+    margin-left: 23%;
+}
+#ulNav>li {
+    margin-left: 70px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#ulNav>li>a {
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ulNav {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav>li {
+    position: relative;
+    display: inline;
+    margin-right: 3%;
+
+}
+ul{
+    display: block;
+    position: inherit;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 60px;
+    text-align: center;
+}
+
+.cover {
+width: 100%;
+height: 450px;
+padding: 50px;
+padding-top: 50px;
+padding-right: 50px;
+padding-bottom: 50px;
+padding-left: 50px;
+background-image: url("C:/Users/obeid/Desktop/GoMyCode/OO/res/background.png");
+background-size: cover;
+background-position: center;
+margin-bottom: 90px;
+box-sizing: border-box;
+}
+.textedefond{
+font-size: 80px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#objetvect{
+    text-align: center;
+    height: 200px;
+}
+.objetvect2{
+    text-align: center;
+    display: block;
+}
+.grp1{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+}
+.grp2{
+    display: inline-block;
+    height: 250px;
+    width: 250px; 
+}
+.grp3{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    background-size: cover;
+    text-align: center;
+    
+}
+.grp4{
+    display: inline-block;
+    height: 250px;
+    width: 250px; 
+    margin-left: 50px;
+    background-size: cover;
+    text-align: center;
+    
+}
+.viewmore h4{
+text-align: center;
+padding-left:35%;
+width: 25%;
+height: 200%;
+font-weight: 500;
+font-size: 25px;
+}
+.feadback h4{
+    text-align: center;
+    padding-left:35%;
+    width: 25%;
+    height: 200%;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(252, 252, 252) !important;
+    }
+iframe {
+    width: 560px;
+    height: 315px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    
+}
+.video{
+    text-align: center;
+}
+.bouton{
+    text-align: center;
+    padding-left: 10px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.commentaire{
+    width: 600px;
+    height: 80px;
+}
+.champs{
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+}
+#coordonnes{
+    display: block;
+    text-align: center;
+    align-items: center;
+    
+}
+.boutton2{
+    text-align: center;
+}
+.boutton2 button{
+    margin: auto;
+}
+.label {
+    font-size: 14px;
+    max-width: 200%;
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: white !important;
+    text-align: center;
+}
+.format{
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 12px;
+    font-size: 16px;
+    box-shadow: transparent;
+    margin: auto;
+}
