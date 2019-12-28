@@ -204,3 +204,39 @@ option {
     box-shadow: transparent;
     margin: auto;
 }
+.cour1{
+background-image: url("C:/Users/obeid/Desktop/GoMyCode/OO/res/Objet_dynamique_vectoriel1.png");
+width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-size: cover;
+    overflow: hidden;
+}
+.cour2{
+    background-image: url("C:/Users/obeid/Desktop/GoMyCode/OO/res/Objet_dynamique_vectoriel2.png");
+    width: 250px;
+        height: 250px;
+        margin-left: 50px;
+        display: inline-block;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .cour3{
+        background-image: url("C:/Users/obeid/Desktop/GoMyCode/OO/res/Objet_dynamique_vectoriel3.png");
+        width: 250px;
+            height: 250px;
+            margin-left: 50px;
+            display: inline-block;
+            background-size: cover;
+            overflow: hidden;
+        }
+.btn{
+    text-align: center;
+    margin-top: 120px;
+    overflow: visible;
+}
+.btn :hover{
+background-color: white;
+
+}

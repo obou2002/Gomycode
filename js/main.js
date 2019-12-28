@@ -1,0 +1,1 @@
+var getId=Document.getElementById("p").InnerHTML;
