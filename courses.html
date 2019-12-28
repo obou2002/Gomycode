@@ -49,22 +49,22 @@
     </div>
     <a class="feadback" ><h4>Feadback</h4></a>
     <div class="bouton">
-    <button onclick="BOLD">B</button>
-    <button onclick="ITALIC">I</button>
-    <button onclick="UNDERLINE">U</button>
-    <select id="taille">
+        <button onclick=Boldit()>B</button>
+        <button onclick=Italicthat()>I</button>
+        <button onclick=ToUnderline()>U</button>
+        <select id="taille" onchange=tailleup()>
         <option>20px</option>             
         <option>30px</option>
         <option>40px</option>
-    </select>
-    <select id="police">
+        </select>
+        <select id="police"onchange=Policethat()>
         <option>Arial</option>
         <option>Verdana</option>
         <option>Geneva</option>
-    </select>
-    <br>
-    <br>
-    <textarea class="commentaire"></textarea>
+        </select>
+        <br>
+        <br>
+        <textarea id="commentaire"></textarea>
     </div>
     
     

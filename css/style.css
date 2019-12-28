@@ -165,7 +165,7 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
 }
-.commentaire{
+#commentaire{
     width: 600px;
     height: 80px;
 }
